@@ -2,7 +2,7 @@
 
 /*
 
-///==[Stripe User Merchant Commands]==///
+///==[testcongthanhtoan User Merchant Commands]==///
 
 /schk creditcard - Checks the Credit Card
 
@@ -105,7 +105,7 @@ if(strpos($message, "/sm ") === 0 || strpos($message, "!sm ") === 0){
             }
 
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.com/v1/sources');
+            curl_setopt($ch, CURLOPT_URL, 'https://api.testcongthanhtoan.com/v1/sources');
             curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HEADER, 0);
             curl_setopt($ch, CURLOPT_USERPWD, $sec. ':' . '');
@@ -153,7 +153,7 @@ Time -» <b>$time</b><b>s</b>
             $id = capture($result,'"id": "','"');
             
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, 'https://api.stripe.com/v1/customers');
+            curl_setopt($ch, CURLOPT_URL, 'https://api.testcongthanhtoan.com/v1/customers');
             curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
             curl_setopt($ch, CURLOPT_HEADER, 0);
             curl_setopt($ch, CURLOPT_USERPWD, $sec. ':' . '');
