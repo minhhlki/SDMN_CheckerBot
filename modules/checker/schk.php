@@ -2,7 +2,7 @@
 
 /*
 
-///==[Stripe User Merchant Commands]==///
+///==[Test cổng thanh toán User Merchant Commands]==///
 
 /schk creditcard - Checks the Credit Card
 
